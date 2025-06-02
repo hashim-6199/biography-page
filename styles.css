@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f3f0f9;
+  color: #333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  padding: 20px;
+}
+
+.bio-card {
+  background-color: #fff;
+  padding: 30px;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(126, 87, 194, 0.2); /* Soft violet shadow */
+}
+
+.bio-card h1 {
+  font-size: 2rem;
+  margin-bottom: 15px;
+  color: #6a1b9a; /* Deep violet */
+}
+
+.bio-card p {
+  line-height: 1.6;
+  font-size: 1rem;
+}
+
+.contact {
+  margin-top: 25px;
+}
+
+.contact h2 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+  color: #7b1fa2;
+}
+
+.contact p {
+  margin-bottom: 8px;
+}
+
+.contact a {
+  color: #8e24aa;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
